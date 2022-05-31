@@ -1,0 +1,77 @@
+body {
+  margin: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+.card {
+  background: #ffffff;
+  border: 3px solid #0000ba;
+  border-radius: 30px;
+  display: block;
+  padding: 50px;
+  max-width: 800px;
+}
+
+.temperature {
+  font-size: 100px;
+  text-align: center;
+  color: #0000ba;
+}
+.units {
+  font-size: 20px;
+  color: #0000ba;
+  text-align: center;
+}
+.title-emoji {
+  font-size: 125px;
+  text-align: center;
+}
+.report {
+  text-align: center;
+}
+
+.report-emoji {
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+.time,
+.date,
+.location {
+  font-size: 25px;
+  font-style: bold;
+  color: #0000ba;
+}
+.humidity,
+.wind,
+.description {
+  color: #0000ba;
+}
+.location {
+  position: relative;
+  margin-top: 100px;
+}
+
+form {
+  position: relative;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+h2 {
+  display: inline;
+  color: #0000ba;
+}
+
+.report-day {
+  background: #0000ba;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px;
+}
+.report-date {
+  background: #ffffff;
+  color: #0000ba;
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid #0000ba;
+}
